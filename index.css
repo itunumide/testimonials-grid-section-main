@@ -18,7 +18,65 @@
 body {
   max-width: 1440px;
   font-family: 'Barlow Semi Condensed', sans-serif;
-font-weight: 500;
+ font-weight: 500;
+ background: var(--Grey-100);
+ color: var(--Grey-100);
+ 
+}
+.testimonial-grid{
+    padding: 1rem;
+    margin: 2rem 0px;
+}
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.card__avatar-wrapper{
+    width: 50px;
+    img{
+        width: 100%;
+        border-radius: 50%;
+        border: 3px solid transparent;
+    }
+}
+.card--purple{
+    background: var(--Purple-500);
+    img{
+        border-color: var(--Purple-300);
+    }
+}
+.card--dark{
+    background: var(--Grey-500);
+    color: var(--Grey-200);
+    img{
+        border-color: var(--Grey-400);
+    }
+}.card--white{
+    background: var(--White);
+    color: var(--Grey-400);
+    img{
+        border-color: var(--White);
+    }
+}.card--blue{
+    background: var(--Dark-blue);
+    img{
+        border-color: var(--Purple-500);
+    }
+}.card--white{
+    background: var(--White);
+    color: var(--Grey-400);
+    img{
+        border-color: var(--Purple-300);
+    }
+}
+.card__header{
+ display: flex;
+ gap: 1rem;
+ align-items: center;
 }
 .attribution {
   font-size: 11px;
